@@ -1,0 +1,21 @@
+/* Sélection de la classe de l'image */
+img {
+    /* Styles pour définir la largeur maximale de l'image */
+    max-width: 100%;
+    height: auto; /* Assure que l'aspect ratio de l'image est préservé */
+  
+    /* Styles pour ajouter une ombre à l'image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+    /* Styles pour arrondir les coins de l'image */
+    border-radius: 8px;
+  
+    /* Styles pour ajouter une marge autour de l'image */
+    margin: 10px;
+  
+    /* Styles pour centrer l'image horizontalement dans son conteneur parent */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
